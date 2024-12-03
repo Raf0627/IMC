@@ -1,0 +1,49 @@
+h2{
+    color: #D4D4D2;
+}h1{
+    margin-block-start: 0em; 
+    color: white;
+}
+.input_area{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+input{
+    height: 1.5em;
+}
+textarea{
+    width: 100%;
+    margin-top: 2em;
+    border-radius: 1em;
+}
+.container{
+    background-color: #1C1C1C;
+    display: inline-flex;
+    padding: 1.5em;
+    border-radius: 1em;
+    flex-direction: column;
+    align-items: center;
+    width: 20em;
+}
+
+.area{
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    height: 3em;
+    width: 100%;
+    background-color: #269c22;
+    border: none;
+    color: white;
+    border-radius: 0.3em;
+}
+button:hover{
+    cursor: pointer;
+}
+body{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTG-uHhLuAGfRhQ5Jh-dPTBYVyPTGhgkyOsFw&s);
+}
